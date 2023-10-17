@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* discounts and contact details */
+.top{
+    background: #2A5E31 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #FFFFFF;;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    font-size:small;
+    padding: 5px;
+}
+.same{
+    margin: 5px 50px;
+}
+.book > a{
+    color: #3BB64C;
+}
+
+/* logo, search, login and cart */
+.right-part > div > img{
+    width: 20px;
+    height: 20px;
+    /* display: none; */
+    position: relative;
+    right:9%;
+    top: 10%;
+}
+.top-mid{
+    display: flex;
+    justify-content: space-between;
+}
+.right-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 50px;
+/* background-color: red; */
+}
+.right-part > div > input{
+    width: 30vw;
+    padding: 7px;
+}
+.Login_and_cart{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+.top-mid > .logo > img{
+    width: 145px;
+    height: 45px;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.search{
+    display: flex;
+    height: 38px;
+    width: 400px;
+    margin: 5px 30px;
+}
+.search > input{
+    padding: 10px;
+    height: 15px;
+    outline-style: none;
+    outline-color: transparent;    
+    outline-width: 0px;
+    width: 400px;
+    border: 1px solid #D8D8D8;
+    border-radius: 3px;
+}
+.search > img{
+    position: relative;
+    right: 40px;
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+}
+.login{
+    font-size: smaller;
+}
+.login > img{
+    width: 15px;
+    position: relative;
+    left: 7px;
+}
+.cart{
+    font-size: smaller;
+}
+.cart > img{
+    width: 20px;
+}
+
+/* navbar tabs in header part */
+
+.item-section{
+    height: 7vh;
+}
+.ham-section{
+    background: #2A5E31 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+    height: 4vh;
+    text-align: center;
+    display: none;
+    padding: 9px;
+}
+.ham-section > a{
+    color: #3BB64C;
+}
+.ham > img{
+    width: 20px;
+    height: 20px;
+    width: 7vw;
+    height: 6vh;
+    position: absolute;
+    right: 3vw;
+    top: 5vh;
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 45px;
+}
+
+nav > div {
+    flex-basis: 100%;
+}
+
+ul.item-tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ul.item-tabs > li{
+    list-style: none;
+    display: flex;
+    padding: 5px;
+}
+ul.item-tabs li a{
+    text-decoration: none;
+    color: black;
+}
+nav button{
+    border: none;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background-color: #3BB64C;
+}
+li{
+    display: block;
+}
+.drop-down{
+    width: 100px;
+    height: 150px;
+    border-radius: 11px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: none;
+    position: absolute;
+}
+.drop-down > li{
+    margin: 6px 4px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    top: 4px;
+}
+#menu{
+    width: 50px;
+}
+nav button{
+    height: 25px;
+}
+
+/* web site body part  */
+section > div > h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight:400;
+    margin: 0px 25px 5px 25px ;
+    /* background-color: yellow */
+}
+.content {
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.left-content{
+    /* background-color: green; */
+    width: 100%;
+    height: 77vh;
+    margin: 56px;
+    display: flex;
+    justify-content: space-between;   
+
+}
+
+.left-content > div {
+    flex-basis: 60%;
+}
+.left-content > figure {
+    flex-basis: 60%;
+}
+
+/* .left-content article{
+    margin: 20px ;
+} */
+
+.content-image{
+    margin: 20px 20px 0px 0px;
+
+}
+.content-info{
+    margin: 33px 10px;
+    /* background-color: grey; */
+    flex-basis: 1000px;
+}
+
+.btn > button{
+    padding: 12px;
+    background-color: #2A5E31;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 18px;
+    margin: 5px 0px;
+    padding: 12px 60px;
+}
+.women > img{
+    width: 35vw;
+    height: 90vh;
+    margin: 10px;
+}
+.ham-elements{
+    height: 50vh;
+    display: none;
+    background-color: rgb(230, 255, 241);
+    position: absolute;
+
+}
+.ham-elements div img{
+    width: 3vw;
+    height: 3vh;
+    position: relative;
+    right: 3%;
+    top: 4px;
+}
+
+.ham-elements div input{
+    width: 80%;
+    padding: 3px;
+    border-radius: 3px;
+    /* border: solid; */
+    outline: none;
+}
+.ham-elements div{
+    /* text-align: center; */
+}
+.nav-elements li{
+    display: block;
+}
+.nav-visible {
+    display: none;
+} 
+
+.nav-visible .items .item-tabs ul li{
+    display: block;
+}
+.nav-visible .items .item-tabs ul li > button{
+    width: 40vw;
+    height: 40vh;
+}
+.nav-visible .drop-down{
+    background-color: #a9e8b2;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ============== Hovering effects ================= */
+.item-tabs li > a:hover{
+    color: #3BB64C;
+}
+nav > button:hover{
+    background-color: #D7F0DB;
+    color: #3BB64C;
+}
+ul.item-tabs li:hover .drop-down{
+    display: block;
+
+}
+.drop-down li:hover{
+    background-color: #D7F0DB;
+    color: #3BB64C;
+}
+
+
+/* ================= responsiveness ================= */
+
+
+/* 1. for top discount */
+@media screen and (max-width:600px) {
+    .top{
+        display: none;
+    }
+    .right-part{
+        display: none;
+    }
+    section > nav{
+        display: none;
+    }
+    .logo > img{
+        
+    }
+    .Login_and_cart{
+        display: none;
+    }
+    section nav{
+        display: none;
+    }
+    .ham-section{
+        display: block;
+    }
+    .ham img{
+        display: block;
+    }
+    .item-section{
+        display: none;
+    }
+    .ham-elements{
+        padding: 10px;
+        width: 40%;
+        height: 65%;
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    .ham-elements > div {
+        display: flex;
+        justify-content: space-around;
+    }
+    .ham-elements input {
+        display: inline-block;
+        width: 200px;
+        border: solid;
+    }
+    .ham-elements .Login {
+        display: flex;
+        gap: 20px;
+    }
+    .ham-elements nav {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .ham-elements .items {
+        width: 400px;    
+    }
+    .ham-elements .item-tabs {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* border: solid; */
+    }
+    .ham-elements .item-tabs li {
+        /* border: solid; */
+        
+    }
+
+    .btn button {
+        padding: 10px 16px;
+    }
+   
+}
+/* 2. for navbar and mid-header part */
+
+
+
